@@ -3,18 +3,13 @@ const { makeRequest } = require('../helpers/make-request')
 
 module.exports = {
 
-
   friendlyName: 'Initialize Transaction',
-
 
   description: 'Initialize a transaction from your backend',
 
-
   cacheable: false,
 
-
   sync: false,
-
 
   inputs: {
     apiKey: require('../constants/apiKey.input'),
