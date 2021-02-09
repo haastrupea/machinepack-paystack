@@ -5,11 +5,11 @@ describe('Paystack.fetchTransaction()', () => {
   it('Successfully fetch transaction', (done) => {
     makeRequest('/transaction',
       {
-        headers: getHeaders(process.env.PAYSTACK_API_KEY_FOR_TESTS)
+        headers: getHeaders(global.apiKey)
       })
       .then((retrievedTransactions) => {
         global.Paystack.fetchTransaction({
-          apiKey: process.env.PAYSTACK_API_KEY_FOR_TESTS,
+          apiKey: global.apiKey,
           id: retrievedTransactions.data[0].id
         }).exec(function (error, response) {
           if (error) return done(error)
@@ -24,7 +24,7 @@ describe('Paystack.fetchTransaction()', () => {
 
   it('Failed to fetch transaction with wrong ID', (done) => {
     global.Paystack.fetchTransaction({
-      apiKey: process.env.PAYSTACK_API_KEY_FOR_TESTS,
+      apiKey: global.apiKey,
       id: 10000000000000100000000
     }).exec(function (error, response) {
       if (error) return done(error)
