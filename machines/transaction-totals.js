@@ -18,11 +18,11 @@ module.exports = {
     perPage: require('../constants/perPage.input'),
     page: require('../constants/page.input'),
     from: {
-      description: 'A timestamp from which to start listing refund',
+      description: 'A timestamp from which to start listing transaction',
       example: '2020-09-21'
     },
     to: {
-      description: 'A timestamp at which to stop listing refund',
+      description: 'A timestamp at which to stop listing transaction',
       example: '2021-01-31'
     }
   },
