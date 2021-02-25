@@ -99,7 +99,8 @@
       "update-subaccount",
       "create-product",
       "list-products",
-      "fetch-product"
+      "fetch-product",
+      "update-product"
     ]
   },
   "husky": {
