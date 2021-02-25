@@ -110,7 +110,8 @@
       "create-invoice",
       "list-invoices",
       "view-invoice",
-      "verify-invoice"
+      "verify-invoice",
+      "send-notification"
     ]
   },
   "husky": {
