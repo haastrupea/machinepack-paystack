@@ -93,7 +93,8 @@
       "create-dedicated-accounts",
       "fetch-dedicated-account",
       "deactivate-dedicated-account",
-      "create-subaccount"
+      "create-subaccount",
+      "list-subaccounts"
     ]
   },
   "husky": {
