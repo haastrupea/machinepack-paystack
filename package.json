@@ -97,7 +97,8 @@
       "list-subaccounts",
       "fetch-subaccount",
       "update-subaccount",
-      "create-product"
+      "create-product",
+      "list-products"
     ]
   },
   "husky": {
