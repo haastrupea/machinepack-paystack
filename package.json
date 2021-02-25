@@ -106,7 +106,8 @@
       "fetch-page",
       "update-page",
       "check-slug-availability",
-      "add-products"
+      "add-products",
+      "create-invoice"
     ]
   },
   "husky": {
