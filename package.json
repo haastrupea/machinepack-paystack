@@ -111,7 +111,8 @@
       "list-invoices",
       "view-invoice",
       "verify-invoice",
-      "send-notification"
+      "send-notification",
+      "invoice-total"
     ]
   },
   "husky": {
