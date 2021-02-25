@@ -101,7 +101,8 @@
       "list-products",
       "fetch-product",
       "update-product",
-      "create-page"
+      "create-page",
+      "list-pages"
     ]
   },
   "husky": {
