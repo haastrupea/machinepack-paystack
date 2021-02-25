@@ -104,7 +104,8 @@
       "create-page",
       "list-pages",
       "fetch-page",
-      "update-page"
+      "update-page",
+      "check-slug-availability"
     ]
   },
   "husky": {
