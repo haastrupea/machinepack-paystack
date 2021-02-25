@@ -115,7 +115,8 @@
       "invoice-total",
       "finalize-invoice",
       "update-invoice",
-      "archive-invoice"
+      "archive-invoice",
+      "fetch-settlements"
     ]
   },
   "husky": {
