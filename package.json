@@ -92,7 +92,8 @@
       "deactivate-authorization",
       "create-dedicated-accounts",
       "fetch-dedicated-account",
-      "deactivate-dedicated-account"
+      "deactivate-dedicated-account",
+      "create-subaccount"
     ]
   },
   "husky": {
