@@ -108,7 +108,8 @@
       "check-slug-availability",
       "add-products",
       "create-invoice",
-      "list-invoices"
+      "list-invoices",
+      "view-invoice"
     ]
   },
   "husky": {
