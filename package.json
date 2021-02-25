@@ -114,7 +114,8 @@
       "send-notification",
       "invoice-total",
       "finalize-invoice",
-      "update-invoice"
+      "update-invoice",
+      "archive-invoice"
     ]
   },
   "husky": {
