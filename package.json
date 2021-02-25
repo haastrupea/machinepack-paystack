@@ -113,7 +113,8 @@
       "verify-invoice",
       "send-notification",
       "invoice-total",
-      "finalize-invoice"
+      "finalize-invoice",
+      "update-invoice"
     ]
   },
   "husky": {
