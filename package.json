@@ -91,7 +91,8 @@
       "whitelist-or-blacklist-customer",
       "deactivate-authorization",
       "create-dedicated-accounts",
-      "fetch-dedicated-account"
+      "fetch-dedicated-account",
+      "deactivate-dedicated-account"
     ]
   },
   "husky": {
